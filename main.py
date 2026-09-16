@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 
 # --- إعدادات ---
 TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("DISCORD_TOKEN")
 ENABLE_CONTENT = os.getenv("ENABLE_MESSAGE_CONTENT", "true").lower() == "true"
 
 intents = discord.Intents.default()
